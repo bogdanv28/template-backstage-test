@@ -8,7 +8,8 @@ metadata:
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/techdocs-ref: dir:.
+defaultOwner: "bogdanv28"
 spec:
   type: service
   lifecycle: experimental
-  owner: ${{values.owner | "bogdanv28"}}
+  owner: ${{values.owner | defaultOwner}}
