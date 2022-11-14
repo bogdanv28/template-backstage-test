@@ -1,10 +1,10 @@
-apiVersion: backstage.io/v1alpha1
 kind: Template
+# some metadata about the template itself
 metadata:
-  name: template-test-backstage
-  annotations:
-    github.com/project-slug: bogdanv28/template-backstage-test
+  name: template-backstage-test
+  title: Test Action template
+  description: scaffolder v1beta3 template demo
 spec:
-  type: other
+  type: service
   lifecycle: testing
   owner: Bogdan Vlas
