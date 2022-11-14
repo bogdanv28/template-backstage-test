@@ -12,4 +12,4 @@ defaultOwner: "bogdanv28"
 spec:
   type: service
   lifecycle: experimental
-  owner: ${{values.owner | defaultOwner}}
+  owner: ${{values.destination.owner | dump}}
