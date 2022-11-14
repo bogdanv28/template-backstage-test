@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: template-test-backstage
+  annotations:
+    github.com/project-slug: bogdanv28/template-backstage-test
+spec:
+  type: other
+  lifecycle: testing
+  owner: Bogdan Vlas
