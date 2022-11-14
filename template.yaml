@@ -43,6 +43,11 @@ spec:
         url: ./skeleton
         values:
           name: ${{ parameters.name }}
+          component_id: ${{ parameters.component_id }}
+          description: ${{ parameters.description }}
+          destination: ${{ parameters.repoUrl | parseRepoUrl }}
+          owner: ${{ parameters.owner }}
+          
 
     - id: publish
       name: Publish
