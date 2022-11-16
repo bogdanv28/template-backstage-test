@@ -34,8 +34,8 @@ spec:
             allowedHosts:
               - github.com
             allowedOwners:
-              - backstage
-              - someGithubUser
+              - bogdanv28
+              - organization_name
 
   # here's the steps that are executed in series in the scaffolder backend
   steps:
