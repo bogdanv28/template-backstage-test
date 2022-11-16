@@ -26,6 +26,12 @@ spec:
       required:
         - repoUrl
       properties:
+        owner:
+          title: The organization, user or project that this repo will belong to..
+          type: string
+          enum:
+            - bogdanv28
+            - some_organization
         repoUrl:
           title: Repository Location
           type: string
