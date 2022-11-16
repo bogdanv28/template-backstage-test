@@ -33,8 +33,9 @@ spec:
           description: Owner of the component
           ui:field: OwnerPicker
           ui:options:
-            allowedKinds:
-              - Group
+            allowedOwners:
+              - bogdanv28
+              - some_organization
         repoUrl:
           title: Repository Location
           type: string
