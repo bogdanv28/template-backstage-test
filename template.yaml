@@ -22,20 +22,10 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
-    - title: Choose a location AA
+    - title: Choose a location
       required:
-        - owner
         - repoUrl
       properties:
-        owner:
-          title: Owner
-          type: string
-          description: Owner of the component
-          ui:field: OwnerPicker
-          ui:options:
-            allowedOwners:
-              - bogdanv28
-              - some_organization
         repoUrl:
           title: Repository Location
           type: string
@@ -43,6 +33,9 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+            allowedOwners:
+              - backstage
+              - someGithubUser
 
   # here's the steps that are executed in series in the scaffolder backend
   steps:
